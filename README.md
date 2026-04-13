@@ -1,18 +1,7 @@
-## Getting Started
+This is my take on completeng test tasks.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+For first task i decided to generate all posible combinations of valid sequences and count them. I added memoization to reduce computational load from recursion
 
-## Folder Structure
+For second task i gather information from user and using dijkastra find minimal path. I thought about computing once for all pairs of cities, but for 15 cities number of pairs is greater than nuber of tests. Aditionaly memoization can be added to costly dijkastra algorithm.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+For third task i used BigInteger to store value of factorial. and for fonding sum of numbers transformed it into string and then iterating on it.
