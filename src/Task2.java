@@ -51,7 +51,7 @@ public class Task2 {
     }
 
     // implementation of dijkstra algorithm
-    private static int FindShortestPath(int fromIndex, int toIndex) {]
+    private static int FindShortestPath(int fromIndex, int toIndex) {
         // initialize all variables
         int n = matrix.length;
 
